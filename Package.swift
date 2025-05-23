@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ios-spm-dependencies",
+    name: "appsconcept-spm-dependencies",
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
@@ -33,7 +33,7 @@ let package = Package(
         .binaryTarget(
           name: "configurator_ios",
           url: "https://github.com/appsconcept/ios-spm-dependencies/releases/download/1.0.0/configurator_ios.xcframework.zip",
-          checksum: "44597f71cee9bc79e71303bdc2092aba478d341dba1f04f9b14329c65d7285d6"
+          checksum: "ce28b2e988878cdd99f40db47367e9fdbe3bf8099bb15f12854f1aca12218277"
         ),
     ]
 )
